@@ -1,0 +1,67 @@
+body {
+    background-color: #efebd8;
+    font-family: "Titillium Web", serif;
+    margin-bottom: 5%;
+}
+
+header,
+header a {
+    background-color: #008080;
+    color: white;
+    text-align: center;
+    font-size: 200%;
+    font-weight:800;
+}
+
+header .active,
+header a:hover {
+    text-decoration: underline;
+}
+
+header .inactive {
+    text-decoration: none;
+}
+
+nav,
+nav a {
+    color: black;
+    text-align: center;
+    font-size: 140%;
+    font-style: italic;
+    font-weight :700;
+    padding: 0% 5%;
+    border-bottom: thick solid #008080;
+}
+
+nav .active,
+nav a:hover {
+    text-decoration: underline;
+}
+
+nav .inactive {
+    text-decoration: none;
+}
+
+h1 {
+    color: black;
+    width: 70%;
+    margin: auto;
+    padding: 5% 0% 0%;
+    border-bottom: thin solid black;
+}
+
+p {
+    color: black;
+    font-size: 130%;
+    width: 70%;
+    margin: auto;
+}
+
+ascii {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    font-weight: 700;
+}

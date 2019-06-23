@@ -1,0 +1,16 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>{{ page.title }}</title>
+        <link rel="stylesheet" href="/assets/css/style.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css?family=Titillium+Web:regular,b,bi,i,black&display=swap');
+        </style>
+    </head>
+    <body>
+        {% include header.html %}
+        {% include nav.html %}
+        {{ content }}
+    </body>
+</html>

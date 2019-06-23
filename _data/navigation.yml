@@ -1,0 +1,8 @@
+- name: about
+  link: /about/
+- name: linux
+  link: /linux/
+- name: 240z
+  link: /240z/
+- name: contact
+  link: /contact/

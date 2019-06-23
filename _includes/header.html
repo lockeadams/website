@@ -1,0 +1,8 @@
+<header>
+    {% if page.url == "/" %}
+        {% assign class = "active" %}
+    {% else %}
+        {% assign class = "inactive" %}
+    {% endif %}
+    <a href="/" class="{{ class }}">LOCKE ADAMS</a>
+</header>
